@@ -1,4 +1,4 @@
-:root{
+:root {
     --dark-gray: #202020;
     --light-gray: #3e3e43;
     --yellow: #f4c620;
@@ -42,6 +42,7 @@ header {
 
 main {
     margin-top: 50px;
+    min-height: 900px;
 
     h3 {
         font-size: 30px;
@@ -60,23 +61,30 @@ main {
     padding: 4px;
 
     &:hover {
-        border: 3px solid var(--yellow);
         cursor: pointer;
+
+        img {
+            transition-duration: 0.5s;
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+        }
     }
 
     div {
         width: 100%;
         height: 300px;
-        background-color: silver;
+        position: relative;
 
         img {
             width: 100%;
             height: 100%;
             border: 1px silver solid;
             box-sizing: border-box;
+            bottom: 0px;
         }
     }
-    
+
     span {
         font-size: smaller;
     }
@@ -108,4 +116,32 @@ main {
 
 .container-hide {
     display: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: var(--dark-gray);
+    color: silver;
+    font-size: 12px;
+    margin-top: 50px;
+
+    a {
+        color: silver;
+    }
+}
+
+.links {
+    display: flex;
+    gap: 5px;
+
+    div {
+        width: 20px;
+        height: 20px;
+        fill: white;
+    }
 }
