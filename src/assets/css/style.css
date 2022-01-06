@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "Poppins Regular";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+
+:root {
+  --dark-gray: #202020;
+  --light-gray: #3e3e43;
+  --yellow: #f4c620;
+  --white: #f6f6f6;
+}
+
+body {
+  padding: 10px 50px;
+  font-family: "Poppins Regular";
+  max-width: 1270px;
+  margin: 0 auto;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: var(--dark-gray);
+  color: var(--white);
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header h1 {
+  font-size: 20px;
+}
+
+header h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style: none;
+  gap: 10px;
+}
+
+main {
+  margin-top: 50px;
+}
+
+main h3 {
+  font-size: 30px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 50px;
+}
+
+.card {
+  width: 200px;
+  border: 3px solid transparent;
+  padding: 4px;
+}
+
+.card:hover {
+  border: 3px solid var(--yellow);
+  cursor: pointer;
+}
+
+.card div {
+  width: 100%;
+  height: 300px;
+  background-color: silver;
+}
+
+.card div img {
+  width: 100%;
+  height: 100%;
+  border: 1px silver solid;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card span {
+  font-size: smaller;
+}
+
+.desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 0px;
+  padding: 0;
+  background-color: wheat;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+.desc-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.desc-show {
+  height: 500px;
+  padding: 10px 20px;
+  margin-top: 40px;
+}
+
+.container-hide {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
