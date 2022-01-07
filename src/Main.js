@@ -6,7 +6,7 @@ import { useState } from "react";
 
 function Main() {
 
-    document.title = "Kim Portfolio";
+    document.title = "Kim's Portfolio";
 
     const [descData,setDescData] = useState( {title: "", url: "", source: "", img: "", desc: ""} )
     const [details, showDetails] = useState(false);

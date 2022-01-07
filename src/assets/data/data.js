@@ -38,7 +38,7 @@ const _data = [
         link: "https://url",
         source: "https://url",
         img: memogameImg,
-        description: "Memo is a classic card game. The goal is to find consecutive matches. Written in React. Icons are emojis to minimize assets. It is also mobile friendly.",
+        description: "Memo is a card game. The goal is to find consecutive matches. Written in React. Icons are emojis to minimize assets. It is also mobile friendly.",
         keywords: "React"
     },
     {
