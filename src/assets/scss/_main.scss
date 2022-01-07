@@ -91,6 +91,7 @@ main {
 }
 
 .desc {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -103,9 +104,39 @@ main {
     overflow: hidden;
 }
 
+.desc-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+
+    svg {
+        width: 100%;
+        height: 100%;
+    }
+}
+
 .desc-row {
     display: flex;
     gap: 20px;
+
+    div {
+        min-width: 200px;
+        width: 200px;
+        height: 300px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    // p {
+    //     width: 100px;
+    // }
+
 }
 
 .desc-show {
@@ -144,4 +175,10 @@ footer {
         height: 20px;
         fill: white;
     }
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--light-gray);
+    margin: 15px 0;
 }

@@ -1,9 +1,17 @@
 import "./assets/css/style.css";
 import Card from "./Card";
 import _data from "./assets/data/data.js";
+import Details from "./Details";
+import { useState } from "react";
 
 function Main() {
-    return <>
+
+    document.title = "Kim Portfolio";
+
+    const [descData,setDescData] = useState( {title: "", url: "", source: "", img: "", desc: ""} )
+    const [details, showDetails] = useState(false);
+
+    return (<>
         <header>
             <h1>Kim TD</h1>
             <h2>Web Developper</h2>
@@ -18,32 +26,11 @@ function Main() {
         <main>
             <section className="cards">
                 <h3>My Works</h3>
-                <div className="desc">
-                    <div>
-                        <h2>title</h2>
-                        <div>link: url</div>
-                        <div>view source: url</div>
-                        <hr />
-                        <div className="desc-row">
-                            <div><img src="./assets/img/gallery.webp" alt="gallery"></img></div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint rem facilis corrupti a
-                                voluptates ut,
-                                pariatur amet saepe id temporibus voluptate aspernatur nam dignissimos atque veniam,
-                                delectus sequi
-                                debitis eius.
-                                Veniam magni reprehenderit ea explicabo in nobis facilis mollitia et fugit quo ullam libero
-                                beatae
-                                minima, iusto debitis sunt temporibus numquam, iste possimus sit ex ad nesciunt. Fugiat,
-                                voluptatibus
-                                nobis.</p>
-                        </div>
-                    </div>
-                    <div><a href="#" id="back">back</a></div>
-                </div>
-                <div className="container">
+                <Details data={descData} visible={details} callback={showDetails}/>
+                <div className="container" style={{display: details ? "none" : "flex"}}>
 
                     {_data.map((e, i) => {
-                        return <Card data={e} key={e.id.toString()} />
+                        return <Card data={e} key={e.id.toString()} callback={showDescription} />
                     })}
 
                 </div>
@@ -56,7 +43,17 @@ function Main() {
                 <a href="https://github.com/kimtd09/portfolio" rel="noreferrer" target="_blank" alt="github">GitHub</a>
             </div>
         </footer>
-    </>
+    </>);
+
+    function showDescription(id) {
+        const i = id===0 ? 0 : id-1;
+        setDescData(()=> {
+            return { title: _data[i].title, url: _data[i].link, source: _data[i].source, img: _data[i].img, desc: _data[i].description }
+        } )
+        showDetails(() => true);
+    }
+
 }
+
 
 export default Main;
