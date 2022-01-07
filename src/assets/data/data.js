@@ -35,8 +35,8 @@ const _data = [
     {
         id: 4,
         title: "Memo Game",
-        link: "https://url",
-        source: "https://url",
+        link: "https://kimtd-memo.netlify.app",
+        source: "https://github.com/kimtd09/memogame",
         img: memogameImg,
         description: "Memo is a card game. The goal is to find consecutive matches. Written in React. Icons are emojis to minimize assets. It is also mobile friendly.",
         keywords: "React"
