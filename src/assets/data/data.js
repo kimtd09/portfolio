@@ -8,10 +8,10 @@ const _data = [
     {
         id: 1,
         title: "Gallery",
-        link: "https://url",
-        source: "https://url",
+        link: "https://kimtd09.github.io/gallery/",
+        source: "https://github.com/kimtd09/gallery",
         img: galleryImg,
-        description: "An image gallery written in Javascript. It uses asynchronous loading for a smooth UX. It doesn't rely on any libraries and was written from scratch. The images are from Lorem Ipsum API.",
+        description: "An image gallery written in Javascript. It uses asynchronous loading for a smooth UX. It also does lazy loading. It doesn't rely on any libraries and was written from scratch. The images are from Lorem Ipsum API.",
         keywords: "Javascript"
     },
     {

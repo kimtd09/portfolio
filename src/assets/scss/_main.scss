@@ -103,6 +103,10 @@ main {
     transition-duration: 0.3s;
     box-sizing: border-box;
     overflow: hidden;
+
+    a {
+        color: var(--light-gray);
+    }
 }
 
 .desc-close {
@@ -133,11 +137,6 @@ main {
             height: 100%;
         }
     }
-
-    // p {
-    //     width: 100px;
-    // }
-
 }
 
 .desc-show {
