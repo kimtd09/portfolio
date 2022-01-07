@@ -44,8 +44,8 @@ const _data = [
     {
         id: 5,
         title: "Snake Game",
-        link: "https://url",
-        source: "https://url",
+        link: "https://kimtd-snake.netlify.app",
+        source: "https://github.com/kimtd09/snake",
         img: snakeImg,
         description: "A classic game from early days of mobile phone! Based on React, it is playable on computer or mobile.",
         keywords: "React"
