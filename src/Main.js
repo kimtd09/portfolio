@@ -25,7 +25,7 @@ function Main() {
 
         <main>
             <section className="cards">
-                <h3>My Works</h3>
+                <h3 id="title">My Works</h3>
                 <Details data={descData} visible={details} callback={showDetails}/>
                 <div className="container" style={{display: details ? "none" : "flex"}}>
 
@@ -51,6 +51,7 @@ function Main() {
             return { title: _data[i].title, url: _data[i].link, source: _data[i].source, img: _data[i].img, desc: _data[i].description }
         } )
         showDetails(() => true);
+        document.getElementById("title").scrollIntoView();
     }
 
 }

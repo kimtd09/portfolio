@@ -8,6 +8,7 @@
   --light-gray: #3e3e43;
   --yellow: #f4c620;
   --white: #f6f6f6;
+  --font1: #586E5E;
 }
 
 body {
@@ -15,6 +16,10 @@ body {
   font-family: "Poppins Regular";
   max-width: 1270px;
   margin: 0 auto;
+}
+
+h3 {
+  color: var(--yellow);
 }
 
 header {
@@ -108,6 +113,10 @@ main h3 {
 
 .card span {
   font-size: smaller;
+}
+
+.card hr {
+  border-color: var(--yellow);
 }
 
 .desc {
@@ -228,7 +237,7 @@ hr {
   margin: 15px 0;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 600px) {
   header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -238,6 +247,9 @@ hr {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+
+@media screen and (max-width: 430px) {
   body {
     padding: 10px 10px;
   }

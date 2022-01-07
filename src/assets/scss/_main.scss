@@ -3,6 +3,7 @@
     --light-gray: #3e3e43;
     --yellow: #f4c620;
     --white: #f6f6f6;
+    --font1: #586E5E;
 }
 
 body {
@@ -10,6 +11,10 @@ body {
     font-family: "Poppins Regular";
     max-width: 1270px;
     margin: 0 auto;
+}
+
+h3 {
+    color: var(--yellow);
 }
 
 header {
@@ -88,6 +93,10 @@ main {
 
     span {
         font-size: smaller;
+    }
+
+    hr {
+        border-color: var(--yellow);
     }
 }
 
