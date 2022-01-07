@@ -36,6 +36,7 @@ header {
         display: flex;
         justify-content: flex-end;
         list-style: none;
+        padding: 0;
         gap: 10px;
     }
 }
@@ -160,6 +161,10 @@ footer {
     color: silver;
     font-size: 12px;
     margin-top: 50px;
+
+    span {
+        text-align: center;
+    }
 
     a {
         color: silver;
