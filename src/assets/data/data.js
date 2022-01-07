@@ -8,7 +8,7 @@ const _data = [
     {
         id: 1,
         title: "Gallery",
-        link: "https://kimtd09.github.io/gallery/",
+        link: "https://kimtd09.github.io/gallery",
         source: "https://github.com/kimtd09/gallery",
         img: galleryImg,
         description: "An image gallery written in Javascript. It uses asynchronous loading for a smooth UX. It also does lazy loading. It doesn't rely on any libraries and was written from scratch. The images are from Lorem Ipsum API.",
@@ -17,8 +17,8 @@ const _data = [
     {
         id: 2,
         title: "Allocine",
-        link: "https://url",
-        source: "https://url",
+        link: "https://kimtd-allocine.netlify.app",
+        source: "https://github.com/kimtd09/allocine",
         img: allocineImg,
         description: "A copycat of french Allocine website. Feed is from a student API. Header is from the original UI. This is written in React.",
         keywords: "React"
@@ -26,8 +26,8 @@ const _data = [
     {
         id: 3,
         title: "Stopwatch",
-        link: "https://url",
-        source: "https://url",
+        link: "https://kimtd-stopwatch.netlify.app",
+        source: "https://github.com/kimtd09/stopwatch",
         img: stopwatchImg,
         description: "A simple Stopwatch with a timer function. Based on React, it uses useState, useEffect and useRef hooks. It is mobile friendly.",
         keywords: "React"
