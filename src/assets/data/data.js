@@ -3,6 +3,7 @@ import allocineImg from "../img/allocine.webp";
 import stopwatchImg from "../img/stopwatch.webp";
 import memogameImg from "../img/memogame.webp";
 import snakeImg from "../img/snake.webp";
+import covidstatImg from "../img/covidstat.webp";
 
 const _data = [
     {
@@ -49,6 +50,15 @@ const _data = [
         img: snakeImg,
         description: "A classic game from early days of mobile phone! Based on React, it is playable on computer or mobile.",
         keywords: "React"
+    },
+    {
+        id: 6,
+        title: "Snake Game",
+        link: "https://kimtd-covidstat.netlify.app",
+        source: "https://github.com/kimtd09/covidstat",
+        img: covidstatImg,
+        description: "A comprehensive statistics website of COVID-19. It presents worldwilde and per country numbers through charts. It is fed by a postman API. Chartjs is the library used to compute charts. Main application is written in React.",
+        keywords: "React, ChartJS"
     },
 ];
 
