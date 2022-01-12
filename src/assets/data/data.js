@@ -53,7 +53,7 @@ const _data = [
     },
     {
         id: 6,
-        title: "Snake Game",
+        title: "CovidStat",
         link: "https://kimtd-covidstat.netlify.app",
         source: "https://github.com/kimtd09/covidstat",
         img: covidstatImg,
