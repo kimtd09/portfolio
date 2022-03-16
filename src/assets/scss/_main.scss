@@ -154,6 +154,24 @@ main {
     margin-top: 40px;
 }
 
+.desc-visit {
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0.5rem 0.9rem;
+    box-sizing: border-box;
+
+    &:hover {
+        background-color: var(--dark-gray);
+        color: var(--white);
+    }
+}
+
+.desc-links {
+    display: flex;
+    gap: 1rem;
+}
+
 .container-hide {
     display: none;
 }

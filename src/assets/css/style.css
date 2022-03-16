@@ -184,6 +184,27 @@ main h3 {
   margin-top: 40px;
 }
 
+.desc-visit {
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 0.5rem 0.9rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.desc-visit:hover {
+  background-color: var(--dark-gray);
+  color: var(--white);
+}
+
+.desc-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
 .container-hide {
   display: none;
 }
