@@ -1,9 +1,15 @@
 :root {
     --dark-gray: #202020;
     --light-gray: #3e3e43;
-    --yellow: #f4c620;
+    --light-gray2: #d0d0d0cc;
+    --yellow: #f7ce3a;
     --white: #f6f6f6;
     --font1: #586E5E;
+
+    --blue1: #021123;
+    --blue2: #09203C;
+    --blue3: #2E4B6E;
+    --blue4: #4E6989;
 }
 
 body {
@@ -108,7 +114,7 @@ main {
     width: 100%;
     height: 0px;
     padding: 0;
-    background-color: wheat;
+    background-color: var(--light-gray2);
     transition-duration: 0.3s;
     box-sizing: border-box;
     overflow: hidden;
@@ -162,7 +168,7 @@ main {
     box-sizing: border-box;
 
     &:hover {
-        background-color: var(--dark-gray);
+        background-color: var(--blue2);
         color: var(--white);
     }
 }
@@ -183,10 +189,12 @@ footer {
     align-items: center;
     width: 100%;
     height: 70px;
-    background-color: var(--dark-gray);
+    background-color: var(--blue1);
     color: silver;
     font-size: 12px;
     margin-top: 50px;
+    line-height: 1.25rem;
+    padding: 0.5rem;
 
     span {
         text-align: center;
@@ -212,4 +220,8 @@ hr {
     border: none;
     border-top: 1px solid var(--light-gray);
     margin: 15px 0;
+}
+
+.hidden {
+    visibility: collapse;
 }

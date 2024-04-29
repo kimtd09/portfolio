@@ -5,8 +5,8 @@ function Details(args) {
     return <div className={args.visible ? "desc desc-show" : "desc"}>
         <div>
             <h2>{args.data.title}</h2>
-            <div className="desc-links">
-                <a className="desc-visit" href={args.data.url} rel="noreferrer" target="_blank">view website</a>
+            <div className={args.data.url === "" ? "hidden" : "desc-links"}  style={{ height : `${args.data.url === "" ?  "0px" : "auto"}` }}>
+                <a className={ "desc-visit"} href={args.data.url} rel="noreferrer" target="_blank">view website</a>
                 <a className="desc-visit" href={args.data.source} rel="noreferrer" target="_blank">code</a>
             </div>
             <div className="desc-close" onClick={() => args.callback(() => false)}>{_close}</div>

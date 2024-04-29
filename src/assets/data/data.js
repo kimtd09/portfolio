@@ -4,10 +4,30 @@ import stopwatchImg from "../img/stopwatch.webp";
 import memogameImg from "../img/memogame.webp";
 import snakeImg from "../img/snake.webp";
 import covidstatImg from "../img/covidstat.webp";
+import kuteaweatherImg from "../img/kuteweather.webp";
+import symfonyImg from "../img/symfony.webp";
 
 const _data = [
     {
         id: 1,
+        title: "Coming soon",
+        link: "",
+        source: "",
+        img: symfonyImg,
+        description: "",
+        keywords: "Fullstack, Symfony, React"
+    },
+    {
+        id: 2,
+        title: "Coming soon",
+        link: "",
+        source: "",
+        img: symfonyImg,
+        description: "",
+        keywords: "Symfony, PHP, MySQL"
+    },
+    {
+        id: 3,
         title: "Gallery",
         link: "https://kimtd09.github.io/gallery",
         source: "https://github.com/kimtd09/gallery",
@@ -16,16 +36,16 @@ const _data = [
         keywords: "Javascript"
     },
     {
-        id: 2,
-        title: "Allocine",
+        id: 4,
+        title: "Movies",
         link: "https://kimtd-allocine.netlify.app",
         source: "https://github.com/kimtd09/allocine",
         img: allocineImg,
-        description: "A copycat of french Allocine website. Feed is from a student API. Header is from the original UI. This is written in React.",
+        description: "A copycat of the French website Allocine. Feed is from a student API. Header is from the original UI. This is written in React.",
         keywords: "React"
     },
     {
-        id: 3,
+        id: 5,
         title: "Stopwatch",
         link: "https://kimtd-stopwatch.netlify.app",
         source: "https://github.com/kimtd09/stopwatch",
@@ -34,7 +54,7 @@ const _data = [
         keywords: "React"
     },
     {
-        id: 4,
+        id: 6,
         title: "Memo Game",
         link: "https://kimtd-memo.netlify.app",
         source: "https://github.com/kimtd09/memogame",
@@ -43,7 +63,7 @@ const _data = [
         keywords: "React"
     },
     {
-        id: 5,
+        id: 7,
         title: "Snake Game",
         link: "https://kimtd-snake.netlify.app",
         source: "https://github.com/kimtd09/snake",
@@ -52,13 +72,22 @@ const _data = [
         keywords: "React"
     },
     {
-        id: 6,
+        id: 8,
         title: "CovidStat",
         link: "https://kimtd-covidstat.netlify.app",
         source: "https://github.com/kimtd09/covidstat",
         img: covidstatImg,
         description: "A comprehensive statistics website of COVID-19. It presents worldwilde and per country numbers through charts. It is fed by a postman API. Chartjs is the library used to compute charts. Main application is written in React.",
         keywords: "React, ChartJS"
+    },
+    {
+        id: 9,
+        title: "KuteWeather",
+        link: "https://github.com/kimtd09/KuteWeather",
+        source: "https://github.com/kimtd09/KuteWeather",
+        img: kuteaweatherImg,
+        description: "An android weather application. Based on a RESTful API. Coded in Kotlin",
+        keywords: "Android, Java, Kotlin"
     },
 ];
 
