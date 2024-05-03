@@ -19,7 +19,7 @@ function Main() {
                 {/* <div id="stars3"></div> */}
             </div>
             <h1>Kim TD</h1>
-            <h2>Web Developper</h2>
+            <h2>Web Developer</h2>
             <ul>
                 <li>PHP</li>
                 <li>HTML</li>

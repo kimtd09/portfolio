@@ -10,6 +10,8 @@
     --blue2: #09203C;
     --blue3: #2E4B6E;
     --blue4: #4E6989;
+
+    --border-radius: 3px;
 }
 
 body {
@@ -32,6 +34,7 @@ header {
     color: var(--white);
     padding: 10px 20px;
     box-sizing: border-box;
+    border-radius: var(--border-radius);
 
     h1 {
         font-size: 20px;
@@ -118,6 +121,7 @@ main {
     transition-duration: 0.3s;
     box-sizing: border-box;
     overflow: hidden;
+    border-radius: var(--border-radius);
 
     a {
         color: var(--light-gray);
@@ -176,6 +180,10 @@ main {
 .desc-links {
     display: flex;
     gap: 1rem;
+
+    a {
+        border-radius: calc( var(--border-radius) - 1px );
+    }
 }
 
 .container-hide {
@@ -195,6 +203,7 @@ footer {
     margin-top: 50px;
     line-height: 1.25rem;
     padding: 0.5rem;
+    border-radius: var(--border-radius);
 
     span {
         text-align: center;
