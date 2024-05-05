@@ -1,5 +1,5 @@
 import galleryImg from "../img/gallery.webp";
-import allocineImg from "../img/allocine.webp";
+import moviesImg from "../img/movies.webp";
 import stopwatchImg from "../img/stopwatch.webp";
 import memogameImg from "../img/memogame.webp";
 import snakeImg from "../img/snake.webp";
@@ -38,10 +38,10 @@ const _data = [
     {
         id: 4,
         title: "Movies",
-        link: "https://kimtd-allocine.netlify.app",
-        source: "https://github.com/kimtd09/allocine",
-        img: allocineImg,
-        description: "A copycat of the French website Allocine. Feed is from a student API. Header is from the original UI. This is written in React.",
+        link: "https://kimtd-movies.netlify.app",
+        source: "https://github.com/kimtd09/movies",
+        img: moviesImg,
+        description: "A webapp listing popular movies based on the themoviedb.org API. Basic functions are implemented. Coded in React.",
         keywords: "React"
     },
     {
