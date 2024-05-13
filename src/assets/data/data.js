@@ -6,6 +6,8 @@ import snakeImg from "../img/snake.webp";
 import covidstatImg from "../img/covidstat.webp";
 import kuteaweatherImg from "../img/kuteweather.webp";
 import symfonyImg from "../img/symfony.webp";
+import lautrecoinImg from "../img/lautrecoin.webp";
+
 
 const _data = [
     {
@@ -19,12 +21,12 @@ const _data = [
     },
     {
         id: 2,
-        title: "Coming soon",
+        title: "L'autre coin",
         link: "",
         source: "",
-        img: symfonyImg,
-        description: "",
-        keywords: "Symfony, PHP, MySQL"
+        img: lautrecoinImg,
+        description: "L'autre Coin is a demo website using Symfony. It is currently in developement and will be online soon. It is inspired by the popular French website Leboncoin. I actually use their announces to feed my database through data scraping. It serves no other purpose than viewing announces.",
+        keywords: "Symfony, PHP, MySQL, Bootstrap"
     },
     {
         id: 3,
@@ -32,7 +34,7 @@ const _data = [
         link: "https://kimtd09.github.io/gallery",
         source: "https://github.com/kimtd09/gallery",
         img: galleryImg,
-        description: "An image gallery written in Javascript. It uses asynchronous loading for a smooth UX. It also does lazy loading. It doesn't rely on any libraries and was written from scratch. The images are from Lorem Ipsum API.",
+        description: "An image gallery written in pure Javascript. It was designed on the purpose to deliver a very smooth user experience. To achieve that goal, modern techniques were used such as asynchronous request, lazy loading and user feedback. Since it was coded from scratch, it is extremely lightweight (less than 30K bytes of sources to download) with low complexity algorithms. Images are provided by the Lorem Ipsum API on a JSON format.",
         keywords: "Javascript"
     },
     {
