@@ -34,7 +34,7 @@ const _data = [
         link: "https://kimtd09.github.io/gallery",
         source: "https://github.com/kimtd09/gallery",
         img: galleryImg,
-        description: "An image gallery written in pure Javascript. It was designed on the purpose to deliver a very smooth user experience. To achieve that goal, modern techniques were used such as asynchronous request, lazy loading and user feedback. Since it was coded from scratch, it is extremely lightweight (less than 30K bytes of sources to download) with low complexity algorithms. Images are provided by the Lorem Ipsum API on a JSON format.",
+        description: "An image gallery written in pure Javascript. It was designed on the purpose to deliver a very smooth user experience. To achieve that goal, modern techniques were used such as asynchronous request, lazy loading and visual feedback. Since it was coded from scratch, it is extremely lightweight (less than 30K bytes of sources to download) with low complexity algorithms. Images are provided by the Lorem Ipsum API on a JSON format.",
         keywords: "Javascript"
     },
     {
