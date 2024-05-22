@@ -31,7 +31,7 @@ const _data = [
     {
         id: 3,
         title: "Gallery",
-        link: "https://kimtd09.github.io/gallery",
+        link: "https://gallery.kimdoa.com",
         source: "https://github.com/kimtd09/gallery",
         img: galleryImg,
         description: "An image gallery written in pure Javascript. It was designed on the purpose to deliver a very smooth user experience. To achieve that goal, modern techniques were used such as asynchronous request, lazy loading and visual feedback. Since it was coded from scratch, it is extremely lightweight (less than 30K bytes of sources to download) with low complexity algorithms. Images are provided by the Lorem Ipsum API on a JSON format.",
@@ -40,7 +40,7 @@ const _data = [
     {
         id: 4,
         title: "Movies",
-        link: "https://kimtd-movies.netlify.app",
+        link: "https://movies.kimdoa.com",
         source: "https://github.com/kimtd09/movies",
         img: moviesImg,
         description: "A webapp listing popular movies based on the themoviedb.org API. Basic functions are implemented. Coded in React.",
@@ -49,7 +49,7 @@ const _data = [
     {
         id: 5,
         title: "Stopwatch",
-        link: "https://kimtd-stopwatch.netlify.app",
+        link: "https://stopwatch.kimdoa.com",
         source: "https://github.com/kimtd09/stopwatch",
         img: stopwatchImg,
         description: "A simple Stopwatch with a timer function. Based on React, it uses useState, useEffect and useRef hooks. It is mobile friendly.",
@@ -58,7 +58,7 @@ const _data = [
     {
         id: 6,
         title: "Memo Game",
-        link: "https://kimtd-memo.netlify.app",
+        link: "https://memo.kimdoa.com",
         source: "https://github.com/kimtd09/memogame",
         img: memogameImg,
         description: "Memo is a card game. The goal is to find consecutive matches. Written in React. Icons are emojis to minimize assets. It is also mobile friendly.",
@@ -67,7 +67,7 @@ const _data = [
     {
         id: 7,
         title: "Snake Game",
-        link: "https://kimtd-snake.netlify.app",
+        link: "https://snake.kimdoa.com",
         source: "https://github.com/kimtd09/snake",
         img: snakeImg,
         description: "A classic game from early days of mobile phone! Based on React, it is playable on computer or mobile.",
@@ -76,7 +76,7 @@ const _data = [
     {
         id: 8,
         title: "CovidStat",
-        link: "https://kimtd-covidstat.netlify.app",
+        link: "https://covidstat.kimdoa.com",
         source: "https://github.com/kimtd09/covidstat",
         img: covidstatImg,
         description: "A comprehensive statistics website of COVID-19. It presents worldwilde and per country numbers through charts. It is fed by a postman API. Chartjs is the library used to compute charts. Main application is written in React.",
