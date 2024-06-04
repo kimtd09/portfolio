@@ -5,7 +5,36 @@
     }
 }
 
-@media screen and (max-width: 430px) {
+@media (width < 574px) {
+    .container {
+        justify-content: center; 
+    }
+}
+
+@media (width < 560px) {
+    .desc {
+        height: fit-content;
+
+    }
+    .desc-row {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+}
+
+@media (width < 470px) {
+    header {
+        padding: 0;
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}
+
+@media (width < 430px) {
     body {
         padding: 10px 10px;
     }    
@@ -25,10 +54,6 @@
         p {
             margin: 0;
         }
-    }
-
-    .container {
-        justify-content: center;
     }
 
     .card {
