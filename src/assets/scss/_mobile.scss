@@ -12,14 +12,10 @@
 }
 
 @media (width < 560px) {
-    .desc {
-        height: fit-content;
-
-    }
     .desc-row {
-        display: flex;
-        flex-direction: column;
-        height: fit-content;
+        div {
+            display: none;
+        }
     }
 }
 
