@@ -22,11 +22,11 @@ const _data = [
     {
         id: 2,
         title: "L'autre coin",
-        link: "",
-        source: "",
+        link: "https://lautrecoin.kimdoa.com",
+        source: "https://github.com/kimtd09/lautrecoin",
         img: lautrecoinImg,
         description: "L'autre Coin is a demo website using Symfony. It is currently in developement and will be online soon. It is inspired by the popular French website Leboncoin. I actually use their announces to feed my database through data scraping. It serves no other purpose than viewing announces.",
-        keywords: "Symfony, PHP, MySQL, Bootstrap"
+        keywords: "Symfony, MariaDB, AJAX, Bootstrap"
     },
     {
         id: 3,
