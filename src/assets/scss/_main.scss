@@ -3,6 +3,7 @@
     --light-gray: #3e3e43;
     --light-gray2: #d0d0d0cc;
     --yellow: #f7ce3a;
+    --brown: #6E512E;
     --white: #f6f6f6;
     --font1: #586E5E;
 
@@ -23,7 +24,7 @@ body {
 }
 
 h3 {
-    color: var(--yellow);
+    color: var(--brown);
 }
 
 header {
@@ -106,7 +107,7 @@ main {
     }
 
     hr {
-        border-color: var(--yellow);
+        border-color: var(--brown);
     }
 }
 
@@ -124,8 +125,12 @@ main {
     overflow: hidden;
     border-radius: var(--border-radius);
 
+    h2 {
+        color: var(--blue1);
+    }
+
     a {
-        color: var(--light-gray);
+        color: var(--white);
     }
 }
 
@@ -168,7 +173,8 @@ main {
 .desc-visit {
     text-transform: uppercase;
     text-decoration: none;
-    border: 1px solid black;
+    // border: 1px solid black;
+    background-color: var(--blue1);
     padding: 0.5rem 0.9rem;
     box-sizing: border-box;
 

@@ -44,7 +44,7 @@ const _data = [
         source: "https://github.com/kimtd09/movies",
         img: moviesImg,
         description: "A webapp listing popular movies based on the themoviedb.org API. Basic functions are implemented. Coded in React.",
-        keywords: "React"
+        keywords: "React, REST API, JSON"
     },
     {
         id: 5,
